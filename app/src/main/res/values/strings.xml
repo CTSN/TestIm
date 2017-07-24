@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TestIm</string>
+    <string-array name="main_tab">
+        <item>聊天</item>
+        <item>好友</item>
+        <item>我</item>
+    </string-array>
+
+    <integer-array name="main_tan_iv">
+        <item>@drawable/main_tab_chat_selec</item>
+        <item>@drawable/main_tab_contact_selec</item>
+        <item>@drawable/main_tab_iv_selec</item>
+    </integer-array>
+</resources>

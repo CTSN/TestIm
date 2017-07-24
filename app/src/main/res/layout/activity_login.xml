@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.m520it.testim.activity.LoginActivity">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:hint="账户"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"/>
+
+    <Button
+        android:id="@+id/btn_ct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CT身份登录"/>
+    <Button
+        android:id="@+id/btn_sn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SN身份登录"/>
+</LinearLayout>
